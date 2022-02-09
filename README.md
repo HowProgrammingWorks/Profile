@@ -4,88 +4,30 @@
 
 ## Fundamental concepts
 
-| Syntax              | Statements     | Functions     | Data structures     |
-|---------------------|----------------|---------------|---------------------|
-| 🟦 value           | 🟦 if         | 🟦 recursion | 🟦 array           |
-| 🟦 identifier      | 🟦 loops      | 🟦 function  | 🟦 class           |
-| 🟦 variable        | 🟦 assignment | 🟦 lambda    | 🟦 object          |
-| 🟦 constant        | 🟦  | 🟦 signature    | 🟦 collection    |
-| 🟦 scalar          | 🟦  | 🟦 argument     | 🟦 hash table    |
-| 🟦 literal         | 🟦  | 🟦 parameter    | 🟦 linked list   |
-| 🟦 expression      | 🟦  | 🟦 pure         | 🟦 queue         |
-| 🟦 heap            | 🟦  | 🟦 function     | 🟦 stack         |
-| 🟦 type            | 🟦  | 🟦 side effects | 🟦 deque         |
-| 🟦 primitive types | 🟦  | 🟦 closure      | 🟦 serialization |
-| 🟦 reference       | 🟦  | 🟦 partial      | 🟦  |
-| 🟦 flag            | 🟦  | ⬜️ curry        | 🟦  |
-| 🟦 lexical scope   | 🟦  | 🟦 chaining     | 🟦  |
-| 🟦                 | 🟦  | 🟦 higher order | 🟦  |
-| 🟦                 | 🟦  | 🟦 callback     | 🟦  |
-| 🟦                 | 🟦  | 🟦 listener     | 🟦  |
-| 🟦                 | 🟦  | ⬜️ pipe         | 🟦  |
-| 🟦                 | 🟦  | 🟦 compose      | 🟦  |
-
-- 🟦 mixin
-- ⬜️ memoize
-- 🟦 factory
-- 🟦 pool
-- 🟦 wrapper
-- 🟦 refactoring
-- 🟦 code review
-- 🟦 antipatterns
-- 🟦 paradigm
-- 🟦 algorythm
-- 🟦 magic numbers
-- 🟦 hardcode
-- 🟦 complexity
-- 🟦 decomposition
-- ⬜️ spaghetti
-- ⬜️ silver bullet
-- ⬜️ not invented here
-- 🟦 dead code
-- 🟦 unreachable code
-- 🟦 duplicate code
-- 🟦 exception
-- 🟦 return early
-
-## JavaScript specific
-
-- 🟨 typeof
-- 🟨 Object
-- 🟨 this
-- 🟨 arrow function
-- 🟨 generator
-- 🟨 async function
-- 🟨 call, bind, apply
-- 🟨 Array
-- 🟨 prototype
-- 🟨 class
-- 🟨 instanceof
-- 🟨 iterator
-- 🟦 while
-- 🟦 do..while
-- 🟦 for
-- 🟨 for..in
-- 🟨 for..of
-- 🟨 for await
-- 🟦 throw
-- 🟦 try..catch
-- 🟨 typed arrsys
-- 🟨 Map
-- 🟨 Set
-- 🟨 weak collections
-- 🟨 Proxy
-- 🟨 Symbol
-- 🟨 ...spread
-- 🟨 ...rest
-- 🟦 equality operators
-- 🟦 logical operators
-- 🟦 bitwise operators
-- 🟨 default parameters
-- 🟨 string parsing
-- 🟨 timers
-- 🟨 EventEmitter
-- 🟨 RegExp
-- 🟨 global
-- 🟨 undefined
-- 🟦 null
+| Syntax               | Statements            | Functions             | Data structures     | Process & style      |
+|----------------------|-----------------------|-----------------------|---------------------|----------------------|
+| 🟦 value             | 🟦 if                 | 🟦 recursion          | 🟦 array            | 🟦 refactoring       |
+| 🟦 identifier        | 🟦 loops              | 🟦 function           | 🟦 instance         | 🟦 code review       |
+| 🟦 variable          | 🟦 assignment         | 🟦 lambda             | 🟦 object           | 🟦 antipatterns      |
+| 🟦 constant          | 🟨 prototype          | 🟦 signature          | 🟦 collection       | 🟦 paradigm          |
+| 🟦 scalar            | 🟦 class              | 🟦 argument           | 🟦 hash table       | 🟦 algorythm         |
+| 🟦 literal           | 🟦 while              | 🟦 parameter          | 🟦 linked list      | 🟦 magic numbers     |
+| 🟦 expression        | 🟦 do..while          | 🟦 pure               | 🟦 queue            | 🟦 hardcode          |
+| 🟦 heap              | 🟦 for                | 🟦 function           | 🟦 stack            | 🟦 complexity        |
+| 🟦 type              | 🟨 for..in            | 🟦 side effects       | 🟦 deque            | 🟦 decomposition     |
+| 🟦 primitive types   | 🟨 for..of            | 🟦 closure            | 🟦 serialization    | ⬜️ spaghetti         |
+| 🟦 reference         | 🟨 for await          | 🟦 partial            | 🟦 mixin            | ⬜️ silver bullet     |
+| 🟦 flag              | 🟦 throw              | ⬜️ curry              | 🟨 iterator         | ⬜️ not invented here |
+| 🟦 lexical scope     | 🟦 try..catch         | 🟦 chaining           | 🟨 typed arrsys     | 🟦 dead code         |
+| 🟨 typeof            | 🟦 equality operators | 🟦 higher order       | 🟨 Map              | 🟦 unreachable code  |
+| 🟨 Object            | 🟦 logical operators  | 🟦 callback           | 🟨 Set              | 🟦 duplicate code    |
+| 🟨 this              | 🟦 bitwise operators  | 🟦 listener           | ⬜️ weak collections | 🟦 exception         |
+| 🟨 arrow function    |                       | ⬜️ pipe               | ⬜️ Proxy            | 🟦 return early      |
+| 🟨 generator         |                       | ⬜️ memoize            | ⬜️ Symbol           |                      |
+| 🟨 async function    |                       | 🟦 factory            | 🟨 string parsing   |                      |
+| 🟨 call, bind, apply |                       | 🟦 pool               | 🟨 timers           |                      |
+| 🟨 Array             |                       | 🟦 wrapper            | 🟨 EventEmitter     |                      |
+| 🟨 instanceof        |                       | 🟨 default parameters | 🟨 RegExp           |                      |
+| 🟨 ...spread         |                       |                       | 🟨 global           |                      |
+| 🟨 ...rest           |                       |                       | 🟨 undefined        |                      |
+|                      |                       |                       | 🟦 null             |                      |
