@@ -1,6 +1,6 @@
 # Personal profile of software engineering skills
 
-⬜ Optional, 🟦 Required for all, 🟨 Required for js, 🟩 Planned, ✅ Done, ✔ Verified, ❌ Declined
+⬜ Optional, 🟦 Required for all, 🟨 Required for js, 🟩 Learned, 🟥 Declined
 
 ## Fundamental concepts
 
