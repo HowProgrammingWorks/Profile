@@ -80,3 +80,33 @@
 | ⬜ Async Collector     |                                |                     |                       |
 | ⬜ Coroutine           |                                |                     |                       |
 | ⬜ Goroutine           |                                |                     |                       |
+
+## Node.js and backend
+
+| Internals            | Theory                       | Network           | Technique        | Problems          |
+|----------------------|------------------------------|-------------------|------------------|-------------------|
+| 🟦 Nonblocking I/O   | 🟦 I/O bound tasks           | 🟦 HTTP(S)        | ⬜ Logging       | ⬜ Memory leaks   |
+| 🟦 Event Loop        | 🟦 CPU bound tasks           | 🟦 TCP/SSL        | ⬜ Testing       | ⬜ Resource leaks |
+| 🟦 commonjs          | 🟦 Memory bound tasks        | 🟦 UDP            | ⬜ CI/CD         | ⬜ Blocking code  |
+| 🟦 ECMA modules      | 🟦 Multilayer approach       | 🟦 TLS            | ⬜ Readable      | ⬜ Data race      |
+| 🟦 Network API       | 🟦 Dependencies              | 🟦 Websocket      | ⬜ Writable      |                   |
+| 🟦 Addons            | 🟦 Inversion of control      | 🟦 SSE            | ⬜ Transform     |                   |
+| 🟦 N-API             | 🟦 Dependency injection      | 🟦 HTTP/3 (QUIC)  | ⬜ back pressure |                   |
+| 🟦 Webassembly       | 🟦 GRASP for JS and Node.js  | 🟦 Long polling   | ⬜ Buffer        |                   |
+| 🟦 npm               | 🟦 SOLID for JS and Node.js  | 🟦 REST           | ⬜ Console       |                   |
+| 🟦 node_modules      | 🟦 GoF for JS and Node.js    | 🟦 RPC            | ⬜ Inspector     | ⬜    |
+| 🟦 package.json      | 🟦 Distributed systems       | 🟦 Routing        |                  | ⬜    |
+| 🟦 vm isolation      | 🟦 Highload applications     | 🟦 IP sticky      |                  | ⬜    |
+| 🟦 command line args | 🟦 DDD                       | 🟦 DoS            |                  | ⬜    |
+| 🟦 Node.js CLI       | 🟦 Clean architecture        | 🟦 DDoS           |                  | ⬜    |
+| 🟦 Graceful Shutdown | 🟦 Domain in the middle      | 🟦 XSS            |                  | ⬜    |
+| 🟦 Clustering        | 🟦 Message Queue             | 🟦 Path traversal |                  | ⬜    |
+| 🟦 Load balancing    | 🟦 Transport-agnostic server | 🟦 CSRF           |                  | ⬜    |
+| 🟦 Serverless clouds | 🟦 Framework-agnostic app    | 🟦 DNS            |                  | ⬜    |
+| 🟦 FaaS clouds       | 🟦 Interactive applications  | 🟦 Fetch          |                  | ⬜    |
+| 🟦 Debugging node.js | 🟦 Real-time applications    | 🟦 zlib           |                  | ⬜    |
+| 🟦 crypto            | 🟦 CQS and CQRS              |                   |                  | ⬜    |
+| 🟦 SharedArrayBuffer | 🟦 Event Sourcing            |                   |                  | ⬜    |
+| 🟦 child_process     | 🟦 Shared memory             |                   |                  |                   |
+| 🟦 worker_threads    |                              |                   |                  |                   |
+| 🟦 Streams           |                              |                   |                  |                   |
