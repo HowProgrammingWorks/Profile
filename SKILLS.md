@@ -37,7 +37,7 @@
 | Theory                         | OOP basics            | Arstractions         | Patterns                 |
 |--------------------------------|-----------------------|----------------------|--------------------------|
 | 🟦 Procedural programming      | 🟦 constructor        | ⬜ struct, record    | 🟦 Singleton             |
-| 🟦 Imperative programming      | 🟦 new                | ⬜ Mutable state     | ⬜ Revealing Constructor |
+| 🟦 Imperative programming      | 🟦 new                | ⬜ Mutable state     |                          |
 | 🟦 Structured programming      | 🟦 Static method      | ⬜ Immutable state   |                          |
 | 🟦 Non-structured programming  | 🟦 Method             | ⬜ Enum              |                          |
 | 🟦 Functional programming      | 🟦 Async method       | 🟦 Linked list       |                          |
@@ -77,7 +77,7 @@
 | ⬜ Future              | 🟦 Promise hell                | 🟦 Dead locks       | 🟦 promisify          |
 | ⬜ Deferred            |                                | 🟦 Live locks       | ⬜ IPC                |
 | 🟦 Observer            |                                | ⬜ Actor Model      | ⬜ Channel API        |
-| ⬜ Async Collector     |                                |                     |                       |
+| ⬜ Async Collector     |                                |                     | ⬜ Revealing Constructor |
 | ⬜ Coroutine           |                                |                     |                       |
 | ⬜ Goroutine           |                                |                     |                       |
 
