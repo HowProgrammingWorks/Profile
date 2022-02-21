@@ -59,8 +59,8 @@
 
 ## Asynchronous programming
 
-| Async contracts        | JavaScript & Node.js specific  | Theory              | Techniques             |
-|------------------------|--------------------------------|---------------------|------------------------|
+| Async contracts        | JavaScript & Node.js specific  | Theory              | Techniques               |
+|------------------------|--------------------------------|---------------------|--------------------------|
 | 🟦 Callback-last       | 🟦 Timers                      | 🟦 Event Loop       | ⬜ async.js library      |
 | 🟦 Error-first         | 🟦 setImmediate                | 🟦 Async error      | ⬜ Async composition     |
 | 🟦 Promise             | 🟦 nextTick                    | 🟦 try..catch       | ⬜ Rx.js                 |
