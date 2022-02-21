@@ -12,8 +12,8 @@
 | 🟦 constant          | 🟨 prototype          | 🟦 signature          | 🟦 collection       | 🟦 paradigm          |
 | 🟦 scalar            | 🟦 class              | 🟦 argument           | 🟦 hash table       | 🟦 algorithm         |
 | 🟦 literal           | 🟦 while              | 🟦 parameter          | 🟦 linked list      | 🟦 magic numbers     |
-| 🟦 expression        | 🟦 do..while          | 🟦 pure               | 🟦 queue            | 🟦 hardcode          |
-| 🟦 heap              | 🟦 for                | 🟦 function           | 🟦 stack            | 🟦 complexity        |
+| 🟦 expression        | 🟦 do..while          | 🟦 pure function      | 🟦 queue            | 🟦 hardcode          |
+| 🟦 heap              | 🟦 for                | 🟦 lambda             | 🟦 stack            | 🟦 complexity        |
 | 🟦 type              | 🟨 for..in            | 🟦 side effects       | 🟦 deque            | 🟦 decomposition     |
 | 🟦 primitive types   | 🟨 for..of            | 🟦 closure            | 🟦 serialization    | ⬜️ spaghetti         |
 | 🟦 reference         | 🟨 for await          | 🟦 partial            | 🟦 mixin, extend    | ⬜️ silver bullet     |
@@ -28,7 +28,7 @@
 | 🟨 call, bind, apply |                       | 🟦 pool               | 🟨 timers           | 🟦 unittest          |
 | 🟨 Array             |                       | 🟦 wrapper            | 🟨 EventEmitter     | 🟦 git               |
 | 🟨 instanceof        |                       | 🟨 default parameters | 🟨 RegExp           | 🟦 github            |
-| 🟨 ...spread         |                       | 🟦 lambda             | 🟨 global           | 🟨 node.js           |
+| 🟨 ...spread         |                       |                       | 🟨 global           | 🟨 node.js           |
 | 🟨 ...rest           |                       |                       | 🟨 undefined        | 🟨 npm               |
 | 🟨 typeof            |                       |                       | 🟦 null             |                      |
 
