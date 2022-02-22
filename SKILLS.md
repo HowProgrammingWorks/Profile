@@ -34,7 +34,7 @@
 
 ## Multi-paradigm programming
 
-| Theory                         | OOP basics            | Arstractions         | Patterns                 |
+| Theory                         | OOP basics            | Abstractions         | Patterns                 |
 |--------------------------------|-----------------------|----------------------|--------------------------|
 | 🟦 Procedural programming      | 🟦 constructor        | ⬜ struct, record    | 🟦 Singleton             |
 | 🟦 Imperative programming      | 🟦 new                | ⬜ Mutable state     |                          |
