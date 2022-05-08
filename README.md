@@ -5,5 +5,5 @@
 <code>👀 [Open-source contribution](CONTRIBUTION.md)</code><br>
 <code>🧑‍💻 Languages: JavaScript, Python, C++</code>
 <code>📦 Tech stack: node.js, mongodb, mysql, postgresql</code>
-<code>💬 telegram: [@philipp_zelinskyi](https://telegram.me/philipp_zelinskyi)</code>
+<code>💬 telegram: [@philippius](https://telegram.me/philippius)</code>
 <code>📫 [philipp.zelinski@gmail.com](mailto:philipp.selinski@gmail.com)</code>
