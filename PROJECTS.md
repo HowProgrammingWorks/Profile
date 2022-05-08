@@ -1,5 +1,7 @@
 # List of projects
 
+- **[IntervalsTrainer](https://github.com/nieopierzony/IntervalsTrainer)** - `Web application for ear training, music theory on the topic "Musical intervals"`
+- **[HangmanBot](https://github.com/nieopierzony/HangmanBot)** - `The implementation of the game Hangman in the form of a Discord bot`
 - **[YoutubeSearchBot](https://github.com/nieopierzony/YoutubeSearchBot)** - `Notify user when a YouTube video disappears from a search page`
 - **[domains-bot](https://github.com/nieopierzony/domains-bot)** - `Bot to get information about domain blocking on Cloudflare or Google`
 - **[discord-interaction-bot](https://github.com/nieopierzony/discord-interaction-bot)** - `Discord bot made with webhooks using Metarhia`
@@ -10,5 +12,5 @@
 - **[class-builder](https://github.com/nieopierzony/class-builder)** - `Pointless ES6 class builder`
 - **[hamster-bot](https://github.com/nieopierzony/hamster-bot)** - `Discord bot for roles requests`
 - **[yandex-map-express](https://github.com/nieopierzony/yandex-map-express)** - `Show 20 random points from Postresql database on a map and show the nearest to current location`
-- **[tiktokbot](https://github.com/nieopierzony/tiktokbot)** - `Finds videos in TikTok and compiles them in one video for YouTube with video information)
+- **[tiktokbot](https://github.com/nieopierzony/tiktokbot)** - `Finds videos in TikTok and compiles them in one video for YouTube with video information)`
 - **[forum-parser](https://github.com/nieopierzony/forum-parser)** - `Checking for new topics in the Xenforo forum and sending notifications to Discord`
