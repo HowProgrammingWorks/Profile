@@ -22,15 +22,16 @@
 | 🟦 code block        | 🟦 equality operators | 🟦 higher order       | 🟨 Map              | 🟦 unreachable code  |
 | 🟨 Object            | 🟦 logical operators  | 🟦 callback           | 🟨 Set              | 🟦 duplicate code    |
 | 🟨 this              | 🟦 bitwise operators  | 🟦 listener           | ⬜️ weak collections | 🟦 exception         |
-| 🟨 arrow function    | 🟦 break, continue    | ⬜️ pipe               | ⬜️ Proxy            | 🟦 return early      |
-| 🟨 generator         | 🟦 switch             | ⬜️ memoize            | ⬜️ Symbol           | 🟦 linter            |
-| 🟨 async function    | 🟨 new Error          | 🟦 factory            | 🟨 string parsing   | ⬜️ prettier          |
-| 🟨 call, bind, apply |                       | 🟦 pool               | 🟨 timers           | 🟦 unittest          |
-| 🟨 Array             |                       | 🟦 wrapper            | 🟨 EventEmitter     | 🟦 git               |
-| 🟨 instanceof        |                       | 🟨 default parameters | 🟨 RegExp           | 🟦 github            |
-| 🟨 ...spread         |                       |                       | 🟨 global           | 🟨 node.js           |
-| 🟨 ...rest           |                       |                       | 🟨 undefined        | 🟨 npm               |
-| 🟨 typeof            |                       |                       | 🟦 null             |                      |
+| 🟨 arrow function    | 🟦 break, continue    | ⬜️ pipe               | ⬜️ Symbol           | 🟦 linter            |
+| ⬜️ Proxy             | 🟦 return early       | ⬜️ compose            | 🟨 string parsing   | ⬜️ prettier          |
+| 🟨 generator         | 🟦 switch             | ⬜️ memoize            | 🟨 timers           | 🟦 unittest          |
+| 🟨 async function    | 🟨 new Error          | 🟦 factory            | 🟨 EventEmitter     | 🟦 git               |
+| 🟨 call, bind, apply |                       | 🟦 pool               | 🟨 RegExp           | 🟦 github            |
+| 🟨 Array             |                       | 🟦 wrapper            | 🟨 global           | 🟨 node.js           |
+| 🟨 instanceof        |                       | 🟨 default parameters | 🟨 undefined        | 🟨 npm               |
+| 🟨 ...spread         |                       |                       | 🟦 null             |                      |
+| 🟨 ...rest           |                       |                       
+| 🟨 typeof            |                       |                       
 
 ## Multi-paradigm programming
 
