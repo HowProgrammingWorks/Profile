@@ -64,7 +64,7 @@
 | 🟦 Callback-last       | 🟦 Timers                      | 🟦 Event Loop       | ⬜ async.js library      |
 | 🟦 Error-first         | 🟦 setImmediate                | 🟦 Async error      | ⬜ Async composition     |
 | 🟦 Promise             | 🟦 nextTick                    | 🟦 try..catch       | ⬜ Rx.js                 |
-| 🟦 Async function      | ⬜ AbortController             | 🟦 Non-blocking     | 🟦 Sequential async      |
+| 🟦 Async function      | 🟦 AbortController             | 🟦 Non-blocking     | 🟦 Sequential async      |
 | 🟦 await               | 🟦 Promise unhandled rejection | 🟦 Async I/O        | 🟦 Parallel async        |
 | 🟦 Generator           | 🟦 Promise double resolve      | 🟦 Pattern Reactor  | 🟦 Promise.all           |
 | 🟦 Async Generator     | 🟦 child_process               | ⬜ CAS operations   | 🟦 Promise.allSettled    |
@@ -109,3 +109,14 @@
 | ⬜ SharedArrayBuffer | 🟦 Event Sourcing            |                   |                  |                      |
 | 🟦 child_process     | 🟦 Shared memory             |                   |                  |                      |
 | 🟦 worker_threads    |                              |                   |                  |                      |
+
+## Other skills
+
+- ⬜ Cybersecurity
+- ⬜ TDD
+- ⬜ Quality
+- ⬜ Mobile applications
+- ⬜ High-performance computing
+- ⬜ Edge computing
+- ⬜ Data warehouse
+- ⬜ Low-code and no-code platforms
