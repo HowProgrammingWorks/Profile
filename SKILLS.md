@@ -62,7 +62,7 @@
 | Async contracts        | JavaScript & Node.js specific  | Theory              | Techniques               |
 |------------------------|--------------------------------|---------------------|--------------------------|
 | 🟦 Callback-last       | 🟦 Timers                      | 🟦 Event Loop       | ⬜ async.js library      |
-| 🟦 Error-first         | 🟦 setImmediate                | 🟦 Async error      | ⬜ Async composition     |
+| 🟩 Error-first         | 🟦 setImmediate                | 🟦 Async error      | ⬜ Async composition     |
 | 🟦 Promise             | 🟦 nextTick                    | 🟦 try..catch       | ⬜ Rx.js                 |
 | 🟦 Async function      | 🟦 AbortController             | 🟦 Non-blocking     | 🟦 Sequential async      |
 | 🟦 await               | 🟦 Promise unhandled rejection | 🟦 Async I/O        | 🟦 Parallel async        |
