@@ -1,6 +1,5 @@
 <code>🧑‍🎓 Schoolboy</code>
 <code>🇺🇦 Kyiv / 🇩🇪 Potsdam</code>
-<code>💡 [Skills](SKILLS.md)</code>
 <code>🧻 [Projects](PROJECTS.md)</code>
 <code>👀 [Open-source contribution](CONTRIBUTION.md)</code><br>
 <code>🧑‍💻 Languages: JavaScript, C++</code>
